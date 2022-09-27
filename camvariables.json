@@ -165,7 +165,7 @@
             "hidden": false,
             "label": "cluster_id",
             "secured": false,
-            "required": false,
+            "required": true,
             "immutable": false,
             "group_name": "OpenShift",
             "regexdesc": ""
@@ -506,7 +506,7 @@
             "name": "create_openshift_vips",
             "type": "boolean",
             "description": "Deploy OpenShift with self contained LoadBalancer",
-            "default": false,
+            "default": true,
             "hidden": false,
             "label": "create_openshift_vips",
             "secured": false,
